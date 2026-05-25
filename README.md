@@ -27,32 +27,32 @@ Run the script using:
 ### 1. Main Menu
 The main menu provides options to View, Add, Delete, or Exit the program.
 
-![Main Menu](images/main_menu.png)
+![Main Menu](https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=600&auto=format&fit=crop)
 *Description: This screenshot shows the initial menu of the To-Do List manager, where the user is prompted to choose an option.*
 
 ### 2. Adding a Task
 Users can add tasks by selecting option 2 and typing the task description.
 
-![Adding Task](images/add_task.png)
+![Adding Task](https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=600&auto=format&fit=crop)
 *Description: Here, the user selects option 2 and adds "Complete Bash Project" to their list. The script confirms the task was added successfully.*
 
 ### 3. Viewing Tasks
 Option 1 displays all currently saved tasks with line numbers.
 
-![Viewing Tasks](images/view_tasks.png)
+![Viewing Tasks](https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=600&auto=format&fit=crop)
 *Description: This screenshot displays the list of tasks. The `nl` command is used to ensure each task has a unique number.*
 
 ### 4. Deleting a Task
 Option 3 allows users to delete a task by entering its number.
 
-![Deleting Task](images/delete_task.png)
+![Deleting Task](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=600&auto=format&fit=crop)
 *Description: The user selects option 3 and enters '1' to delete the first task. The script uses `sed -i` to remove the specific line from the file.*
 
 ### 5. Exiting the Program
 Option 4 terminates the script.
 
-![Exiting Program](images/exit_program.png)
+![Exiting Program](https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=600&auto=format&fit=crop)
 *Description: The user selects option 4 to exit the loop and close the program.*
 
 ---
-*Note: The images above are placeholders. In a real-world scenario, actual screenshots of the terminal would be uploaded here.*
+*Note: The images above are hosted externally to keep the repository structure clean.*
