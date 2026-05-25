@@ -27,31 +27,31 @@ Run the script using:
 ### 1. Main Menu
 The main menu provides options to View, Add, Delete, or Exit the program.
 
-![Main Menu](https://via.placeholder.com/600x400?text=Main+Menu+Screenshot)
+![Main Menu](main_menu.png)
 *Description: This screenshot shows the initial menu of the To-Do List manager, where the user is prompted to choose an option.*
 
 ### 2. Adding a Task
 Users can add tasks by selecting option 2 and typing the task description.
 
-![Adding Task](https://via.placeholder.com/600x400?text=Adding+Task+Screenshot)
+![Adding Task](add_task.png)
 *Description: Here, the user selects option 2 and adds "Complete Bash Project" to their list. The script confirms the task was added successfully.*
 
 ### 3. Viewing Tasks
 Option 1 displays all currently saved tasks with line numbers.
 
-![Viewing Tasks](https://via.placeholder.com/600x400?text=Viewing+Tasks+Screenshot)
+![Viewing Tasks](view_tasks.png)
 *Description: This screenshot displays the list of tasks. The `nl` command is used to ensure each task has a unique number.*
 
 ### 4. Deleting a Task
 Option 3 allows users to delete a task by entering its number.
 
-![Deleting Task](https://via.placeholder.com/600x400?text=Deleting+Task+Screenshot)
+![Deleting Task](delete_task.png)
 *Description: The user selects option 3 and enters '1' to delete the first task. The script uses `sed -i` to remove the specific line from the file.*
 
 ### 5. Exiting the Program
 Option 4 terminates the script.
 
-![Exiting Program](https://via.placeholder.com/600x400?text=Exiting+Program+Screenshot)
+![Exiting Program](exit_program.png)
 *Description: The user selects option 4 to exit the loop and close the program.*
 
 ---
